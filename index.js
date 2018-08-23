@@ -9,9 +9,4 @@ document.addEeventListener('keydown', (event)=> {
     let newLeftNumber = (previousLeftNumber - 1) + "px"
     element.style.left = newLeftNumber    
   }
-} 
-
-
-
-
-)
+})
