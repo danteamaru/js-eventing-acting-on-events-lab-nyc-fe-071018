@@ -16,7 +16,7 @@ document.addEventListener('keydown', (event) => {
 
   function moveDodgerRight(event) {
     
-    if (event.which === 37) {
+    if (event.which === 39) {
     // 180px
     let previousRight = element.style.left
     //180
