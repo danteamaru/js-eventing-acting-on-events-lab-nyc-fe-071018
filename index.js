@@ -24,7 +24,7 @@ document.addEventListener('keydown', (event) => {
     if (previousRightNumber < 400) {
     let newRightNumber = (previousRightNumber + 15) + "px"
     element.style.left = newRightNumber    
-      
     }
   }
 }
+moveDodgerRight()
