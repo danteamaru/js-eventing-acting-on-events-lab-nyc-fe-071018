@@ -16,11 +16,11 @@ document.addEventListener('keydown', (event) => {
     
     if (event.which === 37) {
     // 180px
-    let previousLeft = element.style.left
+    let previousRight = element.style.left
     //180
-    let previousLeftNumber = parseInt(previousLeft.replace('px',''), 10)
-    let newLeftNumber = (previousLeftNumber - 15) + "px"
-    element.style.left = newLeftNumber    
+    let previousRightNumber = parseInt(previousRight.replace('px',''), 10)
+    let newRightNumber = (previousRightNumber + 15) + "px"
+    element.style.left = newRightNumber    
   }
     
   }
