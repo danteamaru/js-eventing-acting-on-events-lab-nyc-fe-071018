@@ -14,7 +14,7 @@ document.addEventListener('keydown', (event) => {
   }
 })
 
-  function moveDodgerRight(event) {
+  function moveDodgerRight() {
     
     if (event.which === 39) {
     // 180px
