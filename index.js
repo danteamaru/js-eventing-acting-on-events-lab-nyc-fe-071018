@@ -11,3 +11,5 @@ document.addEventListener('keydown', (event) => {
     element.style.left = newLeftNumber    
   }
 })
+
+  function moveDodgerRight(event)
