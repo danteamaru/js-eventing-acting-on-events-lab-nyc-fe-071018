@@ -1,6 +1,6 @@
 const element = document.getElementById('dodger')
 
-document.addEeventListener('keydown', (event) => {
+document.addEventListener('keydown', (event) => {
   
   if (event.which === 37) {
     // 180px
