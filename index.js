@@ -7,9 +7,10 @@ document.addEventListener('keydown', (event) => {
     let previousLeft = element.style.left
     //180
     let previousLeftNumber = parseInt(previousLeft.replace('px',''), 10)
-    if (previousRightNumber < 400)
+    if (previousLeftNumber > 0) {
     let newLeftNumber = (previousLeftNumber - 15) + "px"
     element.style.left = newLeftNumber    
+    }
   }
 })
 
